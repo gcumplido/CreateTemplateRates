@@ -1,0 +1,38 @@
+/*General styles*/
+body {
+    font-family: 'Forum', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #F6F1F1;
+}
+
+/*Headers styles*/
+nav {
+    padding: 16px;
+    margin-bottom: 48px;
+    background-color: #112D4E;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    color: #F6F1F1;
+
+}
+
+/*footer styles*/
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 64px;
+    width: 100%;
+    background-color: #112D4E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F6F1F1;
+}
