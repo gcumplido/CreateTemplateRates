@@ -12,7 +12,32 @@
 <nav>
     <h1>Americas Currencies</h1>
 </nav>
-<h1>Hola soy un H1</h1>
+<main>
+    <h2>Enter a rate to create a file template</h2>
+    <form action="/">
+        <div class="rowElement">
+            <label for="rate_rate">Exchange Rate</label>
+            <input type="text" id="rate_rate" value="LOC_MXN">
+        </div>
+        <div class="rowElement">
+            <label for="rate_date">Exchange Rate Date</label>
+            <input type="date" id="rate_date">
+        </div>
+        <div id="gridTable">
+            <div class="headers">
+                <span>From</span>
+                <span>To</span>
+                <span>Value</span>
+            </div>
+            <div class="rowRate">
+                <span>USD</span>
+                <span>MXN</span>
+                <input type="number" STEP="0.0001">
+            </div>
+        </div>
+        <button type="submit">Create rate file</button>
+    </form>
+</main>
 <footer>Page made by Gustavo</footer>
 <script src="app.js"></script>
 </body>

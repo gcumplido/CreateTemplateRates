@@ -36,3 +36,40 @@ footer {
     justify-content: center;
     color: #F6F1F1;
 }
+
+/*Main content*/
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 16px auto;
+    border-radius: 16px;
+    padding: 16px;
+    background-color: #DBE2EF;
+    color: #19A7CE;
+    text-align: center;
+}
+
+h2{
+    margin: 16px;
+}
+
+.rowElement{
+    width: 50%;
+    margin: 8px auto;
+    /*border: 1px solid black;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+
+/*Grid Table*/
+#gridTable{
+    width: 50%;
+    /*border: 1px solid black;*/
+    margin: 8px auto;
+}
+
+.headers, .rowRate{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
