@@ -62,6 +62,11 @@ h2{
     text-align: left;
 }
 
+.rowElement input{
+    max-width: 140px;
+    box-sizing: border-box;
+}
+
 /*Grid Table*/
 #gridTable{
     width: 50%;
@@ -72,4 +77,10 @@ h2{
 .headers, .rowRate{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.rowRate input::-webkit-outer-spin-button,
+.rowRate input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
 }

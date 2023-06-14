@@ -14,7 +14,7 @@
 </nav>
 <main>
     <h2>Enter a rate to create a file template</h2>
-    <form action="/">
+    <form action="/submitRate" method="post">
         <div class="rowElement">
             <label for="rate_rate">Exchange Rate</label>
             <input type="text" id="rate_rate" value="LOC_MXN">
@@ -32,7 +32,7 @@
             <div class="rowRate">
                 <span>USD</span>
                 <span>MXN</span>
-                <input type="number" STEP="0.0001">
+                <input type="number" STEP="0.0001" name="rate1">
             </div>
         </div>
         <button type="submit">Create rate file</button>
